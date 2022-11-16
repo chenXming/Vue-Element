@@ -24,7 +24,7 @@ module.exports = {
    * In most cases please use '/' !!!
    * Detail: https://cli.vuejs.org/config/#publicpath
    */
-  publicPath: './', // 修改这里的路径为 ./ 相对路径，相对与当前文件夹的路径，是当前目录,  为了自动发布到github，原来为 / 是根目录
+  publicPath: '/', // 修改这里的路径为 ./ 相对路径，相对与当前文件夹的路径，是当前目录,  为了自动发布到github，原来为 / 是根目录
   outputDir: 'dist', // dist
   assetsDir: 'static',
   lintOnSave: process.env.NODE_ENV === 'development',

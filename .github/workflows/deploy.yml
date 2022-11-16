@@ -1,5 +1,5 @@
 # 以下以一个构建vue项目的yml文件为例子
-name: CI 
+name: CI Github Pages
 on:
   push:
     branches:
