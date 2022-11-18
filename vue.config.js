@@ -28,7 +28,7 @@ module.exports = {
    * publicPath 默认是 / 是根路径，这个是指服务的根路径：https://chenxming.github.io/，发布后会从这个路径下找 js.css 等资源，而生成的网站路径是这个 https://chenxming.github.io/Vue-Element/，显然是找不到的
    * 我们需要修改为 相对路径'./' 或是‘.’ 或是 直接设置的项目子路径 :/Vue-Element/ 就可找到资源了
    */
-  publicPath: '/Vue-Element/',
+  publicPath: './',
   outputDir: 'dist', // dist
   assetsDir: 'static',
   lintOnSave: process.env.NODE_ENV === 'development',
